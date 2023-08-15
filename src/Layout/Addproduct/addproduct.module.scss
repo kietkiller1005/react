@@ -1,0 +1,110 @@
+.form-container {
+    display: flex;
+    min-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content:space-between;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    
+    display: flex;
+   &.group_image{
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - 50px);
+   }
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    min-width: 100px;
+  }
+  
+  .form-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    &.image{
+        width: min-content;
+        display: none;
+    }
+  }
+  
+  
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .back_button{
+     font-size: 28px;
+     cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  .image-container {
+    max-width: 100%;
+    max-height: 10%; /* Điều chỉnh giới hạn chiều cao tùy ý */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selected-image {
+    width: 400px;
+    
+    object-fit:initial;
+  }
+  .one_div{
+min-width: 400px;
+margin-left: 50px;
+margin-top: 50px;
+  }
+  .two_div{
+   padding-top: 50px;
+min-width: 30%;
+margin-right: 50px;
+margin-top: 50px;
+margin-left: 100px;
+min-width: 400px;
+  }
+  .button_text::before {
+    content: "📁"; /* Thay thế nội dung bằng biểu tượng hoặc chữ tùy chỉnh */
+   
+    font-size: 24px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hidden-input {
+    display: none;
+  }

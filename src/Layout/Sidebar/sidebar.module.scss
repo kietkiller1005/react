@@ -1,0 +1,49 @@
+
+
+.tagh{
+width: calc(100% - 3px);
+    
+    
+    font-family: "Arial", sans-serif; /* Lựa chọn font chữ, sau dấu phẩy là các font sau lựa chọn sau khi font đầu không khả dụng */
+  font-size: 16px; /* Kích thước chữ */
+  font-weight: bold; /* Độ đậm */
+  font-style: italic; /* Kiểu chữ nghiêng */
+  color: #333;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid #817f7f;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.tagh:hover{
+    cursor: pointer;
+    background-color: #bbbbbb;
+}
+.fathertag{
+    background-color: white;
+    height: 100%;
+    opacity: 0.9;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   position: absolute;
+   left: 0;
+   z-index: 2;
+}
+.slide_in_out {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0); /* Bắt đầu từ vị trí ban đầu */
+    
+   .hidden{
+    transform: translateX(-100%);
+    
+   }
+  }
+  
+ .hidden {
+    transform: translateX(-100%); /* Di chuyển ra ngoài màn hình */
+    transition: transform 0.3s ease-in-out;
+    
+  }

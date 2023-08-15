@@ -1,0 +1,63 @@
+.father_element{
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    width: 100%;
+    
+    
+}
+.all{
+    width: 100%;
+    background-color: white;
+    height: min-content;
+}
+
+.menu_button{
+margin: 10px;
+margin-left: 20px;
+display: block;
+&:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.path{
+    height: 50px;
+    width: 100rem;
+}
+
+}
+.logo{
+   
+    margin-left: 30px;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+.input{
+
+}
+.searchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+.divbut{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+}

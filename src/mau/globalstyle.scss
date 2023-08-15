@@ -1,0 +1,22 @@
+@import 'normalize.css';
+
+
+body{
+   width: 100vw;
+    font-family: 'Roboto',sans-serif;
+}
+html{
+    width: 100vw;
+}
+.div_one{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.div_two{
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}

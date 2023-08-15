@@ -1,0 +1,16 @@
+.category-dropdown {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .category-dropdown label {
+    margin-right: 10px;
+  }
+  
+  .category-dropdown select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
